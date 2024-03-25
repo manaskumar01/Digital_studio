@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do App By Manas</title>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="#" id="app-name">Task Manager</a> - To-Do App</h1>
+        <p class="app-description">Your personalized task management solution for efficient and productive days.</p>
+        <div class="input-container">
+            <input type="text" id="newTask" placeholder="Enter task...">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <div class="lists-container">
+            <div class="list" id="pendingTasks">
+                <h2>Pending Tasks</h2>
+                <ul id="pendingList"></ul>
+            </div>
+            <div class="list" id="completedTasks">
+                <h2>Completed Tasks</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="credit">
+        <p>Developed by <a href="https://www.linkedin.com/in/manas-kumar-dutta-431891282
+            " target="_blank">Manas Kumar Dutta</span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
